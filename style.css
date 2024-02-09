@@ -1,0 +1,1719 @@
+.landing_page {
+    background-image: url("images/sky.JPG");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;   
+    background-position: bottom;
+    height: 100vh;
+    width: 100vw; 
+    overflow: hidden;
+    display: grid;
+    justify-items: center;
+    align-content: center; 
+}
+
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.landing_page_creative {
+    background-image: url("images/streak.JPG");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    background-attachment: fixed;
+    min-height: 100vh;
+    overflow: hidden;
+    display: grid;
+    justify-items: center;
+    align-content: center; 
+}
+
+.landing_page_music {
+    background-image: url("images/lights.JPG");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    background-attachment: fixed;   
+    box-sizing: border-box;
+    height: 100vh;
+    min-height: 100vh;
+    width: 100vw; 
+    overflow: auto;
+    overflow-x: hidden;
+    justify-items: center;
+    padding-top: 100px;
+}
+
+.landing_page_art {
+    background-image: url("images/butteryfly.JPG");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: left; 
+    overflow-y: scroll;
+    background-attachment: fixed;   
+}
+
+.landing_page_art::-webkit-scrollbar {
+    width: 0.01em;
+}
+
+.landing_button_1, .landing_button_2, .creative_button {
+    padding: 10px 20px;
+    background-color: transparent;
+    display: inline-block;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    text-align: center; /* This ensures horizontal centering */
+    height: 8vh;
+    width: 20vw;
+    line-height: 8vh; /* Add this line to center the text vertically */
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 800;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+}
+
+
+
+.landing_button_small, .creative_button_small {
+    padding: 10px 20px;
+    background-color: transparent;
+    display: inline-block;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    text-align: center; /* This ensures horizontal centering */
+    height: 4vh;
+    width: 15vh;
+    line-height: 4vh; /* Add this line to center the text vertically */
+    text-decoration: none;
+    font-size: 12px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+    font-weight: 800;
+}
+
+.landing_button:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Larger shadow on hover */
+}
+
+.landing_title, .landing_button {
+    background: linear-gradient(to right, #000000, #434343); 
+    -webkit-background-clip: text;
+    color: transparent; 
+    text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.3); 
+}
+
+.landing_title{
+    display: inline;
+}
+
+.landing_div2{
+    padding-top: 20px;
+}
+
+.landing_div3{
+    padding-top: 20px;
+}
+
+.tech_body {
+    background-color: #faf0e6;
+    font-family: 'Lucida Console', monospace;
+    display: grid;
+    align-content: start; 
+    grid-template-columns: repeat(3, 1fr); 
+    overflow-x: hidden;
+    scrollbar-gutter: stable both-edges;
+}
+
+.tech_header {
+    /* margin-top: -10px;
+    margin-bottom: 0px;
+    margin-left: -8px;
+    margin-right: -8px; */
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Tahoma', sans-serif;
+    color: #ffffff;
+    background-color: #000080;
+    display: grid;
+    grid-column: 1 / -1;
+    text-align: center;
+    position: relative;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.tech_header2 {
+    font-family: 'Press Start 2P', cursive;
+    color: #008080;
+    text-align: center; 
+    transition: all 3s ease-in;
+}
+.tech_h1{
+    font-weight: lighter;
+}
+.tech_button:hover {
+    border-style: inset;
+}
+
+.tech_button_img{
+    max-width: 35px;
+    max-height: 35px;
+}
+
+.tech_window_center {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border: 2px solid #000;
+    box-shadow: -4px 4px 0px 0px #808000;
+    align-self: center;
+    text-align: center;
+    grid-column: 2;
+    padding: 2vh;
+    
+}
+
+.tech_window_left {
+    align-self: left;
+    grid-column: 1;
+}
+
+
+.tech_window_right {
+    align-self: right;
+    grid-column: 3;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f5f5dce0;
+}
+
+
+.tech_body::-webkit-scrollbar-track {
+    background: #ffffff00;
+}
+.tech_body::-webkit-scrollbar-thumb {
+    background: #525252;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.retro-image-border {
+    padding: 16px;
+    background-color: #00ffff; 
+    box-shadow: 5px 5px 0px #ff00ff; 
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+    margin-bottom: 32px;
+}
+
+.tech_p{
+    text-align: center;
+}
+
+.tech_sprite_cool_sponge, .tech_sprite_cool_robot, .tech_sprite_sponge_and_squid, .tech_sprite_spooky_tree{
+    align-items: center;
+    align-self: self-start;
+    pointer-events: none;
+    user-select: none;
+    background: none;
+}
+
+.tech_sprite_cool_sponge{
+    width: 180px; 
+    height: 150px; 
+    margin-top: 100vh;
+}
+
+.tech_sprite_cool_robot{
+    width: 150px; 
+    height: 150px;
+}
+
+.tech_sprite_sponge_and_squid{
+    width: 250px; 
+    height: 150px;
+}
+
+.tech_sprite_spooky_tree{
+    width: 250px; 
+    height: 150px;
+}
+
+.tech_footer{
+    align-self: center;
+    text-align: center;
+    grid-column: 2;
+    padding-bottom: 1vh;
+}
+
+.tech_a{
+    display: block;
+    text-align: center;
+    justify-items: center;
+} 
+.tech_a:link{
+    color: #0000ff;
+}
+
+.tech_a:visited{
+    color: #ff00ff;
+}
+
+.tech_button {
+    position: absolute;
+    top: 28px;
+    right: 30px; 
+    border: none;
+    padding: 0;
+    cursor: pointer; 
+    background: transparent;
+    background-clip:padding-box;
+    width: 30px;
+    height: 30px;
+}
+
+.tech_button:hover {
+    background: transparent;
+}
+
+.tech_button:visited , .tech_button:link{
+    color: #ffffff00;
+}
+
+.music_container {
+    display: grid;
+    grid-template-columns: .3fr 1fr 3fr 1fr .3fr;
+    grid-gap: 2vw;
+    padding: 20px;
+    width: fit-content;
+    height: fit-content;
+    min-height: 100vh;
+}
+
+.music_profile {
+    background: #222b32;
+    padding: 15px;
+    border-radius: 5px;
+    grid-column: 2;
+    height: min-content;
+    position: relative;
+}
+
+.music_profile_p{
+    color: #F0FFF0;
+    font-family: 'Robot Mono', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+.music_profile-pic {
+    width: 100%;
+    border-radius: 5px;
+    grid-row: 1;
+}
+
+.music_bio {
+    margin-top: 15px;
+}
+
+.music_main-content {
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 15px;
+    border-radius: 5px;
+    height: auto;
+    grid-column: 3;
+    grid-row: auto;
+    padding-bottom: 40px;
+    width: fit-content;
+}
+
+.music_sidebar {
+    grid-auto-flow: 1;
+    border-radius: 5px;
+    grid-column: 4;
+    grid-row: 1;
+}
+
+.music_cool-gif {
+    margin-bottom: 15px;
+}
+
+.music_h1{
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    color: #F0FFF0; 
+}
+
+.music_page_anime_gif{
+    height: 300px;
+    width: 303px;
+}
+
+.music_page_mario_gif{
+    height: 375px; 
+    width: 324px;
+}
+.music_page_BMO_gif, .music_page_Robo_gif, .music_page_EYE_gif, .music_page_Sonc_gif{
+    height: 265px; 
+    width: 253px;
+}
+
+.music_page_RoboBoy_gif{
+    height: 150px; 
+    width: 262px;
+}
+.music_page_soundcloud_embed{
+    width: 45vw;
+    height: 45vh;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+
+.music_left_side_gifs{
+    grid-column: 2;
+}
+.music_left_side_gifs_row3{
+    grid-row: 3;
+    grid-column: 2;
+}
+.music_left_side_gifs_row8{
+    grid-row: 8;
+    grid-column: 2;
+}
+.landing_page_music::-webkit-scrollbar-thumb {
+    background: #9b9b9b; 
+}
+
+.music_go_home_button-container {
+    display: flex;
+    justify-content: center; 
+    position: absolute;
+    right: 1px;
+    width: 100%; 
+    top: calc(100% + 10px); 
+}
+
+.music_go_home_button {
+    padding: 10px 20px;
+    margin-top: 10px; 
+    color: #ffffff;
+    text-decoration: none;
+    background: none;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.music_go_home_button:hover {
+    background-color: rgba(255, 255, 255, 0.1); 
+    text-decoration: none; 
+}
+
+.photo_go_home_button {
+    padding: 10px 20px;
+    margin-top: 40px; 
+    color: #ffffff;
+    text-decoration: none;
+    background: none;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.photo_go_home_button:hover {
+    background-color: rgba(255, 255, 255, 0.1); 
+    text-decoration: none; 
+}
+
+
+.photo_go_home_button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.photo_profile {
+    background: #334132;
+    padding: 15px;
+    border-radius: 5px;
+    grid-column: 1;
+    min-height: 100vh;
+    max-width: min-content;
+    position: relative;
+    grid-row: 1; 
+    justify-self:start;
+    right: 0;
+}
+
+.photo_p{
+    color: #F0FFF0;
+    font-family: 'Robot Mono', sans-serif;
+    text-align: center;
+}
+
+.photo_profile-pic {
+    width: 375px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.photo_bio {
+    margin-top: 15px;
+    align-self: flex-start;
+    align-items: center;
+}
+
+.photo_container {
+    background: rgba(0, 0, 0, 0.5); /* Dark background for contrast */
+    padding: 30px;
+    border-radius: 5px;
+    height: auto;
+    width: 100%;
+    grid-row: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    padding-bottom: 40px;
+}
+
+.landing_page_photography {
+    background-image: url("images/flower.JPG");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    background-attachment: fixed;   
+    min-height: 100vh;
+    overflow: auto;
+    display: grid;
+    justify-items: center;
+    align-content: center; 
+    position: relative; 
+    grid-template-columns: auto 3fr; 
+    grid-template-rows: auto 1fr; 
+    gap: 0px;
+}
+
+.photo_footer{
+    position: absolute;
+    bottom: 0;
+    width: 80%; 
+    margin: 0 auto; 
+    margin-left: calc(8%);
+    text-align: center; 
+}
+
+
+.inner_photo_bio{
+    display: block;
+    height: 100vh;
+    position: relative;
+}
+
+.landing_page_photography::-webkit-scrollbar-thumb {
+    background: #334132; 
+}
+
+.photo, .photo_moth{
+    height: 300px;
+    width: 400px;
+    grid-row: auto;
+    grid-column: auto;
+    margin-left: 25px;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+}
+
+.photo_moth{
+    width: 160px;
+}
+
+.art_img_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.artImg{
+    height: 800px;
+    object-fit: cover;
+    position: relative;
+    align-self: center;
+    padding-top: 8px;
+}
+
+.art_bio{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center; 
+    width: 100%; 
+    align-items: center;
+}
+
+.art_h1{
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* Subtle text shadow */
+}
+.art_go_home_button{
+    padding: 10px 20px;
+    margin-top: 40px;
+    color: #ffffff;
+    text-decoration: none;
+    background: none;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.art_go_home_button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.flickity-slider {
+    display: flex;
+    align-items: center;
+  }
+
+
+@media screen and (max-width: 240px) {
+    .landing_title{
+        font-size: large;
+    }
+    .landing_button_1{
+        width: auto;
+        height: auto;
+        font-size: 8px;
+        line-height: initial;
+    }   
+    .landing_button_2{
+        width: 45vw;
+        height: auto;
+        font-size: 8px;
+        line-height: initial;
+    }
+    .tech_h1, .tech_header2{
+        font-size: small;
+    }
+    .tech_p{
+        font-size: x-small;
+    }
+    .tech_button {
+        top: 5px;
+        right: 15px; 
+        width: auto;
+        height: auto;
+    }   
+    .tech_button_img{
+        width: 15px;
+        height: 15px;
+    }
+    .tech_sprite_cool_robot{
+        width: 25px;
+        height: 30px;
+    }
+    .tech_sprite_cool_sponge{
+        width: 30px; height: 40px; margin-top: calc(80% + 300px);
+    }
+    .tech_footer{
+        font-size: 8px;
+    }
+    .tech_sprite_sponge_and_squid{
+        width: 30px;
+        height: 40px;
+    }
+    .tech_sprite_spooky_tree{
+        width: 37.5px;
+        height: 30px;
+    }
+    .retro-image-border{
+        width: 70%;
+        height: auto;
+    }
+    .creative_button, .creative_button_small{
+        font-size: 7px;
+        width: auto;
+        padding: 5px 10px;
+        line-height: initial;
+        height: auto;
+    }
+    .music_page_anime_gif{
+        height: 50px;
+        width: 40px;
+    }
+
+    .music_page_mario_gif{
+        height: 35px; 
+        width: 35px;
+    }
+
+    .music_profile{
+        width: 50px;
+    }
+    .music_go_home_button-container{
+        width: 60%;
+        justify-content: initial;
+        right: initial;
+    }
+    .music_profile_p, .music_go_home_button{
+        font-size:5px;
+    }
+    .music_go_home_button{
+        padding: 5px 2px;
+    }
+
+    .music_page_soundcloud_embed{
+        width: 100px;
+        height: 100px;
+    }
+    .music_page_Robo_gif, .music_page_EYE_gif, .music_page_Sonc_gif, .music_page_RoboBoy_gif{
+        height: 35px; 
+        width: 30px;
+    }
+    .music_page_BMO_gif{
+        height: 35px; 
+        width: 30px;
+    }
+
+    .music_container{
+        grid-auto-rows: inherit;
+        width: fit-content;
+        padding: initial;
+        grid-gap: initial;
+    }
+    .music_h1{
+        font-size: 10px;
+    }
+    .music_main-content{
+        width: 130px;
+    }
+    .landing_page_music{
+        padding-top: 20px;
+    }
+    .photo_profile{
+        padding: 5px;
+    }
+    .photo_container{
+        padding: 5px;
+    }
+    .photo_profile-pic{
+        width: 40px;
+        height: 30px;
+    }
+    .photo_p, .photo_go_home_button{
+        font-size: 7px;
+    }
+    .photo_go_home_button{
+        padding: 4px 6px;
+    }
+    .photo_footer{
+        font-size: 7px;
+    }
+    .photo{
+        height: 30px;
+        width: 40px;
+        margin-left: 2px;
+    }
+    .photo_moth{
+        height: 30px;
+        width: 15px;
+    }
+    .artImg{
+        height: 170px;
+    }
+    .art_h1{
+        font-size: 10px;
+    }
+    .flickity-page-dots{
+        top: 200px;
+    }
+    .art_bio{
+        padding-top: 18px;
+    }
+    .art_go_home_button{
+        font-size: 5px;
+        padding: 4px 6px;
+        margin-top: 70px;
+    }
+}
+
+@media screen and (min-width: 250px) and (max-width: 280px) {
+    .landing_title{
+        font-size: x-large;
+    }
+    .landing_button_1{
+        width: auto;
+        height: auto;
+        font-size: 11px;
+        line-height: initial;
+    }   
+    .landing_button_2{
+        width: 45vw;
+        height: auto;
+        font-size: 11px;
+        line-height: initial;
+    }
+    .creative_button{
+        height: initial;
+    }
+    .creative_button, .creative_button_small{
+        font-size: 9px;
+        width: auto;
+        padding: 5px 8px;
+        line-height: initial;
+        height: auto;
+    }
+    .tech_h1, .tech_header2{
+        font-size: small;
+    }
+    .tech_p{
+        font-size: x-small;
+    }
+    .tech_button {
+        top: 5px;
+        right: 15px; 
+        width: auto;
+        height: auto;
+    }   
+    .tech_button_img{
+        width: 15px;
+        height: 15px;
+    }
+    .tech_sprite_cool_robot{
+        width: 50px;
+        height: 50px;
+    }
+    .tech_sprite_cool_sponge{
+        width: 50px; height: 40px; margin-top: calc(80% + 300px);
+    }
+    .tech_footer{
+        font-size: 8px;
+    }
+    .tech_sprite_sponge_and_squid{
+        width: 50px;
+        height: 50px;
+    }
+    .tech_sprite_spooky_tree{
+        width: 50px;
+        height: 40px;
+    }
+    .retro-image-border{
+        width: 50vw;
+        height: auto;
+    }
+    .music_page_anime_gif{
+        height: 32px;
+        width: 50px;
+    }
+    .music_page_mario_gif{
+        height: 40px; 
+        width: 50px;
+    }
+    .music_page_BMO_gif{
+        height: 40px; 
+        width: 50px;
+    }
+    .music_page_Robo_gif, .music_page_EYE_gif, .music_page_Sonc_gif, .music_page_RoboBoy_gif{
+        height: 40px; 
+        width: 50px;
+    }
+    .music_page_soundcloud_embed{
+        width: 45vw;
+        height: 120px;
+    }
+    .music_profile{
+        width: 50px;
+    }
+    .music_profile_p{
+        font-size:6px;
+    }
+    .music_go_home_button{
+        padding: 5px 10px;
+        font-size: 7px;
+    }
+    .music_main-content{
+        width: 56.5vw;
+        height: fit-content;
+    }
+    .music_container{
+        grid-auto-rows: initial;
+        width: auto;
+        padding: initial;
+        grid-gap: 5px;
+    }
+    .music_h1{
+        font-size: 10px;
+    }
+    .landing_page_music{
+        padding-top: 5vh;
+    }
+    .photo_profile{
+        padding: 5px;
+    }
+    .photo_container{
+        padding: 5px;
+    }
+    .photo_profile-pic{
+        width: 70px;
+        height: 60px;
+    }
+    .photo_p, .photo_go_home_button{
+        font-size: 10px;
+    }
+    .photo_go_home_button{
+        padding: 4px 6px;
+    }
+    .photo_footer{
+        font-size: 7px;
+    }
+    .photo{
+        height: 50px;
+        width: 60px;
+        margin-left: 2px;
+    }
+    .photo_moth{
+        height: 50px;
+        width: 25px;
+    }
+    .artImg{
+        height: 55vh;
+        max-width: 80vw;
+    }
+    .art_h1{
+        font-size: 20px;
+    }
+    .flickity-page-dots{
+        top: calc(80% + 200px);
+    }
+    .art_bio{
+        padding-top: calc(10% + 20px);
+    }
+    .art_go_home_button{
+        font-size: 10px;
+        padding: 4px 6px;
+        margin-top: 130px;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 359px) {
+    .landing_title{
+        font-size: x-large;
+    }
+    .landing_button_1{
+        width: auto;
+        height: auto;
+        font-size: 12px;
+        line-height: initial;
+    }   
+    .landing_button_2{
+        width: 49vw;
+        height: auto;
+        font-size: 12px;
+        line-height: initial;
+    }
+    .creative_button{
+        width: auto;
+        font-size: 10px;
+        height: 5vh;
+        line-height: 4vh;
+        padding: 5px 10px;
+    }
+    .creative_button_small{
+        width: auto;    
+        height: auto;
+        line-height: initial;
+        font-size: 10px;
+    }
+    .div_creative_small{
+        padding-top: 10px;
+    }
+    .tech_body{
+        max-width: 100vw;
+    }
+    .tech_window_left{
+        width: min-content;
+    }
+
+    .tech_window_right{
+        width: min-content;
+    }
+
+    .tech_header{
+        width: 100%;
+    }
+    .retro-image-border{
+        width: 55vw;
+        height: auto;
+    }
+    .tech_sprite{
+        max-width: 100px;
+        max-height: 100px;
+    }
+    .tech_h1{
+        font-size: medium;
+    }
+    .tech_button_img{
+        width: 20px;
+        height: 20px;
+    }
+    .tech_button{
+        top: calc(0% + 15px);
+        right: 5px;
+    }
+
+    .tech_p{
+        font-size: 10px;
+    }
+
+    .tech_sprite_cool_sponge{
+        width: 50px; height: 40px; margin-top: calc(80% + 300px);
+    }
+
+    .tech_sprite_cool_robot{
+        width: 55px;
+        height: 45px;
+    }
+
+    .tech_sprite_sponge_and_squid{
+        width: 50px;
+        height: 40px;
+    }
+    .tech_sprite_spooky_tree{
+        width: 60px;
+        height: 50px;
+    }
+    .music_profile_p, .music_go_home_button{
+        font-size: 7px;
+    }
+    .music_page_anime_gif{
+        height: 44px;
+        width: 50px;
+    }
+    .music_page_mario_gif{
+        height: 45px; 
+        width: 50px;
+    }
+    .music_page_BMO_gif{
+        height: 35px; 
+        width: 50px;
+    }
+    .music_page_Robo_gif, .music_page_EYE_gif, .music_page_Sonc_gif, .music_page_RoboBoy_gif{
+        height: 40px; 
+        width: 50px;
+    }
+    .music_page_soundcloud_embed{
+        width: 130px;
+        height: 130px;
+    }
+    .music_profile{
+        width: 60px;
+    }
+    .music_go_home_button{
+        padding: 5px 10px;
+    }
+    .music_container{
+        grid-auto-rows: inherit;
+        width: auto;
+        padding: initial;
+        grid-gap: 10px;
+    }
+    .music_h1{
+        font-size: 8px;
+    }
+    .music_main-content{
+        width: 49vw;
+        padding-bottom: initial;
+    }
+    .landing_page_music{
+        padding-top: 20px;
+    }
+    .landing_page_music{
+        padding-top: 20px;
+    }
+    .photo_profile{
+        padding: 5px;
+    }
+    .photo_container{
+        padding: 5px;
+    }
+    .photo_profile-pic{
+        height: 11vh;
+        width: 22vw;
+    }
+    .photo_p, .photo_go_home_button{
+        font-size: 10px;
+    }
+    .photo_go_home_button{
+        padding: 4px 6px;
+    }
+    .photo_footer{
+        font-size: 7px;
+    }
+    .photo{
+        height: 10vh;
+        width: 22vw;
+        margin-left: 2px;
+    }
+    .photo_moth{
+        height: 11vh;
+        width: 11vw;
+    }
+    .artImg{
+        height: 55vh;
+        max-width: 80vw;
+    }
+    .art_h1{
+        font-size: 20px;
+    }
+    .flickity-page-dots{
+        top: 80vh;
+    }
+    .art_bio{
+        padding-top: 30px;
+    }
+    .art_go_home_button{
+        font-size: 10px;
+        padding: 4px 6px;
+        margin-top: 26vh;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 590px) {
+    .landing_button_1{
+        width: auto;
+        height: auto;
+        font-size: 15px;
+        line-height: initial;
+    }   
+    .landing_button_2{
+        width: 35vw;
+        height: auto;
+        font-size: 15px;
+        line-height: initial;
+    }
+    .creative_button{
+        padding: 5px 10px;
+        width: 30vw;
+        font-size: 10px;
+    }
+    .photo_profile-pic{
+        height: 13vh;
+        width: 22vw;
+    }
+    .photo_p{
+        font-size: small;
+    }
+    .photo_go_home_button{
+        width: fit-content;
+        font-size: small;
+        text-align: center;
+        padding: 0px 20px;
+    }
+    .photo_go_home_button-container{
+        width: fit-content;
+        align-self: center;
+    }
+    .photo, .photo_moth{
+        height: 11vh;
+        width: 22vw;
+        margin-left: 5px;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+    }
+    .photo_footer{
+        font-size: small;
+    }
+    .photo_container{
+        padding: initial;
+    }
+    .photo_moth{
+        width: 11vw;
+    }
+    .inner_photo_bio{
+        display: grid;
+        height: initial;
+        justify-items: center;
+    }
+    .tech_body{
+        max-width: 100vw;
+    }
+    .tech_window_left{
+        width: min-content;
+    }
+
+    .tech_window_right{
+        width: min-content;
+    }
+
+    .tech_header{
+        width: 100%;
+    }
+    .retro-image-border{
+        width: 45vw;
+        height: auto;
+    }
+    .tech_sprite{
+        max-width: 100px;
+        max-height: 100px;
+    }
+    .tech_h1{
+        font-size: larger;
+    }
+    .tech_button_img{
+        width: 20px;
+        height: 20px;
+    }
+    .tech_button{
+        top: calc(0% + 15px);
+        right: 5px;
+    }
+
+    .tech_p{
+        font-size: medium;
+    }
+
+    .tech_sprite_cool_sponge{
+        width: 70px; height: 50px; margin-top: calc(80% + 300px);
+    }
+
+    .tech_sprite_cool_robot{
+        width: 75px;
+        height: 70px;
+    }
+
+    .tech_sprite_sponge_and_squid{
+        width: 50px;
+        height: 40px;
+    }
+    .tech_sprite_spooky_tree{
+        width: 87.5px;
+        height: 50px;
+    }
+    .creative_button_small  {
+        line-height: initial;
+    }
+    .music_profile_p, .music_go_home_button{
+        font-size: 7px;
+    }
+    .music_page_anime_gif{
+        height: 10vh; 
+        width: 18vw;
+    }
+    .music_page_mario_gif{
+        height: 15vh; 
+        width: 18vw;
+    }
+    .music_page_BMO_gif{
+        height: 7vh; 
+        width: 10vw;
+    }
+    .music_page_Robo_gif, .music_page_EYE_gif, .music_page_Sonc_gif, .music_page_RoboBoy_gif{
+        height: 7vh; 
+        width: 8vw;
+    }
+    .music_page_soundcloud_embed{
+        width: 45vw;
+        height: 25vh;
+    }
+    .music_profile{
+        width: 15vw;
+    }
+    .music_go_home_button{
+        padding: 5px 10px;
+    }
+    
+    .music_container{
+        grid-auto-rows: inherit;
+        width: auto;
+        padding: initial;
+        grid-gap: 10px;
+    }
+    .music_h1{
+        font-size: 10px;
+    }
+    .music_main-content{
+        width: 53vw;
+    }
+    .landing_page_music{
+        padding-top: 20px;
+    }
+    .artImg{
+        height: 55vh;
+        max-width: 80vw;
+    }
+    .art_h1{
+        font-size: 20px;
+    }
+    .flickity-page-dots{
+        top: calc(80% + 200px);
+    }
+    .art_bio{
+        padding-top: calc(10% + 20px);
+    }
+    .art_go_home_button{
+        font-size: 10px;
+        padding: 4px 6px;
+        margin-top: 130px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    .landing_button_1{
+        width: auto;
+        height: auto;
+        font-size: 12px;
+        line-height: initial;
+    }   
+    .landing_button_2{
+        width: 20vw;
+        height: auto;
+        font-size: 12px;
+        line-height: initial;
+    }
+    .creative_button{
+        width: auto;
+        font-size: large;
+        height: auto;
+        line-height: 3vh;
+    }
+    .creative_button_small{
+        width: auto;    
+        height: auto;
+        font-size: 16px;
+        line-height: 2vh;
+    }
+    .div_creative_small{
+        padding-top: 10px;
+    }
+    .tech_body{
+        max-width: 100vw;
+    }
+    .tech_window_left{
+        width: min-content;
+    }
+
+    .tech_window_right{
+        width: min-content;
+    }
+
+    .tech_header{
+        width: 100%;
+    }
+    .retro-image-border{
+        width: 50vw;
+        height: auto;
+    }
+    .tech_sprite{
+        max-width: 100px;
+        max-height: 100px;
+    }
+    .tech_h1{
+        font-size: x-large;
+    }
+    .tech_button_img{
+        width: 35px;
+        height: 35px;
+    }
+    .tech_button{
+        top: 1.5vh;
+        right: 3vw;
+    }
+    .tech_p{
+        font-size: medium;
+    }
+    .tech_sprite_cool_sponge{
+        width: 100px; height: 105px; margin-top: calc(80% + 300px);
+    }
+    .tech_sprite_cool_robot{
+        width: 100px;
+        height: 105px;
+    }
+    .tech_sprite_sponge_and_squid{
+        width: 100px;
+        height: 80px;
+    }
+    .tech_sprite_spooky_tree{
+        width: 120px;
+        height: 80px;
+    }
+    .music_profile_p, .music_go_home_button{
+        font-size: 10px;
+    }
+    .music_page_anime_gif{
+        height: 88px;
+        width: 116px;
+    }
+    .music_page_mario_gif{
+        height: 116px; 
+        width: 114px;
+    }
+    .music_page_BMO_gif{
+        height: 90px; 
+        width: 100px;
+    }
+    .music_page_Robo_gif, .music_page_EYE_gif, .music_page_Sonc_gif, .music_page_RoboBoy_gif{
+        height: 80px; 
+        width: 100px;
+    }
+    .music_page_soundcloud_embed{
+        width: 45vw;
+        height: 25vh;
+    }
+    .music_profile{
+        width: 100px;
+    }
+    .music_go_home_button{
+        padding: 5px 10px;
+    }
+    
+    .music_container{
+        grid-auto-rows: inherit;
+        width: auto;
+        padding: initial;
+        grid-gap: initial;
+    }
+    .music_h1{
+        font-size: 10px;
+    }
+    .music_main-content{
+        width: fit-content;
+        height: fit-content;
+    }
+    .landing_page_music{
+        padding-top: 20px;
+    }
+    .photo_profile-pic{
+        height: 13vh;
+        width: 22vw;
+    }
+    .photo_p{
+        font-size: small;
+    }
+    .photo_go_home_button{
+        font-size: small;
+    }
+    .photo, .photo_moth{
+        height: 13vh;
+        width: 22vw;
+        margin-left: 5px;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+    }
+    .photo_footer{
+        font-size: medium;
+    }
+    .photo_container{
+        padding: initial;
+    }
+    .photo_moth{
+        width: 40px;
+    }
+    .artImg{
+        height: 55vh;
+        max-width: 80vw;
+    }
+    .art_h1{
+        font-size: 30px;
+    }
+    .flickity-page-dots{
+        top: 75vh;
+    }
+    .art_bio{
+        padding-top: 8vh;
+    }
+    .art_go_home_button{
+        font-size: 20px;
+        padding: 4px 6px;
+        margin-top: 15vh;
+    }
+}
+
+@media screen and (min-width: 810px) and (max-width: 1200px) {
+    
+    .landing_page {
+        width: 100%; 
+        background-position: initial;
+    }
+    .landing_button_1{
+        width: auto;
+        height: auto;
+        font-size: 20px;
+        line-height: initial;
+    }   
+    .landing_button_2{
+        width: 20vw;
+        height: auto;
+        font-size: 20px;
+        line-height: initial;
+    }
+    .tech_body{
+        max-width: 100vw;
+    }
+    .tech_window_left{
+        width: min-content;
+    }
+
+    .tech_window_right{
+        width: min-content;
+    }
+    .retro-image-border{
+        width: 40vw;
+        height: auto;
+    }
+    .tech_sprite_cool_sponge{
+        width: 150px; height: 125px; margin-top: calc(80% + 300px);
+    }
+
+    .tech_sprite_cool_robot{
+        width: 155px;
+        height: 130px;
+    }
+
+    .tech_sprite_sponge_and_squid{
+        width: 130px;
+        height: 100px;
+    }
+    .tech_sprite_spooky_tree{
+        width: 185px;
+        height: 120px;
+    }   
+
+    .creative_button{
+        width: auto;
+        font-size: x-large;
+    }
+
+    .creative_button_small{
+        font-size: 15px;
+    }
+
+    .landing_title{
+        font-size: 45px;
+    }
+    .music_page_anime_gif{
+        height: 132px;
+        width: 180px;
+    }
+    .music_page_mario_gif{
+        height: 170px; 
+        width: 180px;
+    }
+    .music_page_BMO_gif{
+        height: 140px; 
+        width: 150px;
+    }
+    .music_page_Robo_gif, .music_page_EYE_gif, .music_page_Sonc_gif, .music_page_RoboBoy_gif{
+        height: 140px; 
+        width: 150px;
+    }
+    .music_page_soundcloud_embed{
+        width: 45vw;
+        height: 25vh;
+    }
+    .music_profile{
+        width: 150px;
+    }
+    .music_profile_p{
+        font-size: large;
+    }
+    .music_go_home_button{
+        padding: 5px 10px;
+    }
+    .photo_profile-pic{
+        height: 13vh;
+        width: 22vw;
+    }
+    .music_container{
+        grid-auto-rows: inherit;
+        width: auto;
+        padding: initial;
+    }
+    .photo_p{
+        font-size: large;
+    }
+    .photo_go_home_button{
+        font-size: large;
+    }
+    .photo, .photo_moth{
+        height: 13vh;
+        width: 22vw;
+        margin-left: 5px;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+    }
+    .photo_footer{
+        font-size: medium;
+    }
+    .photo_container{
+        padding: initial;
+    }
+    .photo_moth{
+        width: 120px;
+    }
+    .artImg{
+        height: 70vh;
+        max-width: 80vw;
+    }
+    .art_h1{
+        font-size: 50px;
+    }
+    .flickity-page-dots{
+        top: calc(80% + 300px);
+    }
+    .art_bio{
+        padding-top: calc(2% + 10px);
+    }
+    .art_go_home_button{
+        font-size: 40px;
+        padding: 6px 8px;
+        margin-top: 8vh;
+    }
+}
+
+@media screen and ( min-width: 1280px) and (max-width: 1600px) {
+    .tech_body{
+        max-width: 100vw;
+    }
+    .tech_window_left{
+        width: min-content;
+    }
+
+    .tech_window_right{
+        width: min-content;
+    }
+
+    .tech_header{
+        width: 100%;
+    }
+    .retro-image-border{
+        width: 50vw;
+        height: auto;
+    }
+    .tech_sprite{
+        max-width: 100px;
+        max-height: 100px;
+    }
+    .tech_h1{
+        font-size: x-large;
+    }
+    .tech_button_img{
+        width: 35px;
+        height: 35px;
+    }
+    .tech_button{
+        top: calc(0% + 15px);
+        right: 15px;
+    }
+    .tech_p{
+        font-size: medium;
+    }
+    .tech_sprite_cool_sponge{
+        width: 130px; height: 120px; margin-top: calc(80% + 300px);
+    }
+    .tech_sprite_cool_robot{
+        width: 150px;
+        height: 135px;
+    }
+    .tech_sprite_sponge_and_squid{
+        width: 150px;
+        height: 130px;
+    }
+    .tech_sprite_spooky_tree{
+        width: 160px;
+        height: 120px;
+    }
+    .music_page_soundcloud_embed{
+        width: 660px;
+        height: 600px;
+    }
+
+    .music_page_Robo_gif, .music_page_EYE_gif, .music_page_Sonc_gif, .music_page_RoboBoy_gif{
+        height: 132.5px; 
+        width: 126.3px;
+    }
+    .music_page_BMO_gif{
+        height: 132.5px; 
+        width: 126.3px;
+    }
+
+    .music_page_anime_gif{
+        height: 150px;
+        width: 232px;
+    }
+    .music_main-content{
+        width: fit-content;
+    }
+
+    .music_page_mario_gif{
+        height: 232px; 
+        width: 226px;
+    }
+    .music_page_BMO_gif{
+        height: 132.5px; 
+        width: 126.3px;
+    }
+    .music_container{
+        grid-auto-rows: initial;
+    }
+    .photo_profile-pic{
+        width: 220px;
+        height: 180px;
+    }
+    .photo_p{
+        font-size: large;
+    }
+    .photo_go_home_button{
+        font-size: large;
+    }
+    .photo, .photo_moth{
+        height: 280px;
+        width: 330px;
+        margin-left: 5px;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+    }
+    .photo_footer{
+        font-size: medium;
+    }
+    .photo_moth{
+        width: 120px;
+    }
+    .artImg{
+        height: 700px;
+        max-width: 700px;
+    }
+    .art_h1{
+        font-size: 30px;
+    }
+    .flickity-page-dots{
+        top: calc(80% + 220px);
+    }
+    .art_bio{
+        padding-top: calc(0% + 5px);
+    }
+    .art_go_home_button{
+        font-size: 20px;
+        padding: 6px 8px;
+        margin-top: 80px;
+    }
+}
