@@ -1095,21 +1095,23 @@
 
 @media screen and (min-width: 360px) and (max-width: 590px) {
     .landing_button_1{
-        width: auto;
+        width: 33vw;
         height: auto;
         font-size: 15px;
         line-height: initial;
     }   
     .landing_button_2{
-        width: 35vw;
+        width: 33vw;
         height: auto;
         font-size: 15px;
         line-height: initial;
     }
     .creative_button{
         padding: 5px 10px;
-        width: 30vw;
-        font-size: 10px;
+        width: auto;
+        font-size: 12px;
+        line-height: initial;
+        height: initial;
     }
     .photo_profile-pic{
         height: 13vh;
@@ -1162,6 +1164,10 @@
 
     .tech_header{
         width: 100%;
+    }
+    .tech_header2{
+        width: 100%;
+        font-size: large;
     }
     .retro-image-border{
         width: 45vw;
