@@ -1100,6 +1100,9 @@
         font-size: 15px;
         line-height: initial;
     }   
+    .landing_title{
+        font-size: x-large;
+    }   
     .landing_button_2{
         width: 33vw;
         height: auto;
